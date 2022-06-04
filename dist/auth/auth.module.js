@@ -11,7 +11,10 @@ const common_1 = require("@nestjs/common");
 let AuthModule = class AuthModule {
 };
 AuthModule = __decorate([
-    (0, common_1.Module)({})
+    (0, common_1.Module)({
+        controllers: [],
+        providers: []
+    })
 ], AuthModule);
 exports.AuthModule = AuthModule;
 //# sourceMappingURL=auth.module.js.map
