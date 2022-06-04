@@ -7,7 +7,12 @@ export class AuthController{
      constructor(private authService:AuthService){}
 
      @Get('signin')
-     signin():string{
-          return this.authService.getHello();
+     signin():any{
+          return this.authService.signin();
+     }
+
+     @Get('signup')
+     signup():any{
+          return this.authService.signup();
      }
 }
