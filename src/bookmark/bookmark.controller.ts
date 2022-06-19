@@ -2,7 +2,7 @@ import { Controller } from "@nestjs/common";
 import {
 
 
-@Controller()
+@Controller('auth')
 export class BookMarkController{
   constructor(private readonly auth:){}
   
